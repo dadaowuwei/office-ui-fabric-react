@@ -1263,6 +1263,11 @@ export interface IRawStyleBase extends IRawFontStyle {
   perspective?: ICSSRule | string;
 
   /**
+   * the preserveAspectRatio property indicates whether or not to force uniform scaling of SVG image.
+   */
+  preserveAspectRatio?: string;
+
+  /**
    * The perspective-origin property establishes the origin for the perspective property.
    * It effectively sets the X and Y position at which the viewer appears to be looking
    * at the children of the element.
